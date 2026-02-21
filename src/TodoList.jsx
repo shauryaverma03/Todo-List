@@ -46,6 +46,8 @@ export default function TodoList() {
         );
     }
 
+    // let upperCaseOne = (id) => {
+
     return (
         <div>
             <input placeholder="Add a task" value={newtodo} onChange={updateTodovalue}/>
